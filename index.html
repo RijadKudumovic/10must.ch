@@ -570,7 +570,27 @@
   gap: 6px;
 }
 
+.location-lines {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.location-lines span {
+  display: block;
+}
+
 .hero-lines span {
+  display: block;
+}
+
+.location-lines {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.location-lines strong {
   display: block;
 }
 
@@ -674,10 +694,13 @@
             <span class="info-label">Datum</span>
             <strong>Samstag, 29.08.2026</strong>
           </div>
-          <div class="info-box">
-            <span class="info-label">Ort</span>
-            <strong>Tägi Eventarena, Tägerhardstrasse 122, 5430 Wettingen</strong>
-          </div>
+<div class="info-box">
+  <span class="info-label">Ort</span>
+  <div class="location-lines">
+    <strong>Tägi Eventarena, Tägerhardstrasse 122,</strong>
+    <strong>5430 Wettingen</strong>
+  </div>
+</div>
           <div class="info-box">
             <span class="info-label">Special</span>
             <strong>Main Card, MMA Fights, VIP Tickets, Special Guests </strong>
@@ -708,7 +731,7 @@
       <div class="cards">
         <div class="card reveal">
           <h3>Atmosphäre</h3>
-          <p>Keine Halle, Keine geschlossenen Räume, Outdoor Location, Frische Luft, Überdacht und geschützt vor Sonne und Regen. Ein Cage draussen, in einem Setup das es so noch nie gab! Ein wahres Spektakel!</p>
+          <p>Keine Halle, Keine geschlossenen Räume, Outdoor Location, Frische Luft, überdacht und geschützt vor Sonne und Regen. Ein Cage draussen, in einem Setup das es so noch nie gab! Ein wahres Spektakel!</p>
         </div>
         <div class="card reveal">
           <h3>Show</h3>
@@ -716,12 +739,13 @@
 Main Card mithochkarätigen Pro MMA Fights, die um den Titel kämpfen. Special Guests, DJ, Moderation, Interviews, und vieles mehr. Ein Event der neuen Extraklasse, das du nicht verpassen solltest!
           </p>
         </div>
-        <div class="card reveal">
-          <h3>Location</h3>
-          <p>Tägi Eventarena, Tägerhardstrasse 122, 5430 Wettingen</p>
-        </div>
-      </div>
-    </div>
+<div class="card reveal">
+  <h3>Location</h3>
+  <div class="location-lines">
+    <span>Tägi Eventarena, Tägerhardstrasse 122,</span>
+    <span>5430 Wettingen</span>
+  </div>
+</div>
   </section>
 
   <section class="section" id="video">
